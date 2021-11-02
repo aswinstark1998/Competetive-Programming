@@ -46,5 +46,14 @@ public class BitWiseOperatorsInJava_001 {
          */
 
         System.out.println("a ^ b: "+ (a^b));
+        /*
+            BITWISE NOT - Negative numbers are stored in 2's compliment form
+            ~ 0 0 0 0 ........ 0 1 0 1 = 5
+          ----------------------------
+              1 1 1 1..........1 0 1 0 = -6
+
+         */
+
+        System.out.println("~a: "+ (~a));
     }
 }
